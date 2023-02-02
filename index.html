@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!-- Main container to hold page content -->
+    <div id="main" class="container">
+        <!-- Random article link -->
+        <p class='body-text'><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"
+                rel="noopener noreferrer">Click here for a random article</a></p>
+        <p>or</p>
+        <!-- Textbox for inputting text to sent to Wikipedia API -->
+        <p class='body-text'>Click on the circle below to search Wikipedia</p>
+        <div id='searchBox'>
+            <input type="text" id="search" value="">
+            <i id="searchClose" class="fas fa-times"></i>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
