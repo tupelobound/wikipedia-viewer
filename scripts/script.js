@@ -46,7 +46,7 @@ $("#search").keydown(function (event) {
                     var extract = json.query.pages[i].extract; // the text overview of the page
 
                     // create a new div element for each of the search results, using the variables from the JSON data
-                    $("#main").append("<div id='card-" + id + "' class='result-card'><a href='" + url + "' target='_blank' rel='noopener noreferrer'><h1>" + title + "</h1>" + extract + "</div></a>");
+                    $("#main").append("<div id='card-" + id + "' class='result-card'><a href='" + url + "' target='_blank' rel='noopener noreferrer'><h2>" + title + "</h2>" + extract + "</div></a>");
 
                     id++; // update the id variable for the next card
                 }
