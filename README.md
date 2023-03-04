@@ -5,5 +5,10 @@ freeCodeCamp legacy project - Build a Wikipedia Viewer
 
 This project originally formed part of the Intermediate Front End Development certificate, which focused heavily on interacting with APIs.
 
+Project brief was to fulfill the following user stories:
+
+1.  I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+2.  I can click a button to see a random Wikipedia entry.
+
 Originally completed in Feb 2018.
 
